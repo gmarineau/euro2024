@@ -60,37 +60,37 @@ on(['selectTabEvent' => function ($tab) {
                 <div class="px-4 pt-4 flex flex-col gap-6">
                     <div class="py-4 px-7 rounded-4xl bg-euro-dark text-euro-light">
 
-                        <h1 class="text-2xl mb-4 font-bold">Rules</h1>
-                        <h2 class="text-xl mb-2 font-bold">Predictions</h2>
-                        <p class="mb-2">For all group stage predictions, you must have predicted all results by kick off of the first game (June 14th 2024, 2100 CET).</p>
-                        <p class="mb-2">For the knockout round, predictions need only be in by kick off of the game in question.</p>
+                        <h1 class="text-2xl mb-4 font-bold">Règles</h1>
+                        <h2 class="text-xl mb-2 font-bold">Prédictions</h2>
+                        <p class="mb-2">Pour tous les pronostics de la phase de groupes, vous devez avoir prédit tous les résultats avant le coup d'envoi du premier match (14 juin 2024, 21h00 CET).</p>
+                        <p class="mb-2">Pour les huitièmes de finale, les pronostics ne doivent être établis qu'au coup d'envoi du match en question.</p>
 
-                        <h2 class="text-xl mt-6 mb-2 font-bold">Scoring</h2>
-                        <p class="mb-2">The break down of points awarded is as follows:</p>
+                        <h2 class="text-xl mt-6 mb-2 font-bold">Notation</h2>
+                        <p class="mb-2">La répartition des points attribués est la suivante :</p>
 
                         <ul class="list-disc ml-6">
                             <li>
                                 <h3 class="font-bold">5 points</h3>
-                                <p class="mb-2">For guessing the exact score and result of a match [ES]</p>
+                                <p class="mb-2">Pour deviner le score exact et le résultat d'un match [ES]</p>
                             </li>
                             <li>
                                 <h3 class="font-bold">3 points</h3>
-                                <p class="mb-2">For guessing the exact goal difference and result of a match [GD]</p>
+                                <p class="mb-2">Pour deviner la différence de buts exacte et le résultat d'un match [GD]</p>
                             </li>
                             <li>
                                 <h3 class="font-bold">2 points</h3>
-                                <p class="mb-2">For guessing the correct winner of a match [W]</p>
+                                <p class="mb-2">Pour deviner le bon vainqueur d'un match [W]</p>
                             </li>
                             <li>
                                 <h3 class="font-bold">0 points</h3>
-                                <p class="mb-2">For not getting any of the above outcomes [L]</p>
+                                <p class="mb-2">Pour n'avoir obtenu aucun des résultats ci-dessus [L]</p>
                             </li>
                         </ul>
 
-                        <h2 class="text-xl mt-6 mb-2 font-bold">Knockout stages</h2>
+                        <h2 class="text-xl mt-6 mb-2 font-bold">Phases à élimination directe</h2>
 
-                        <p class="mb-2">Predictions for knockout games need ony be made by kick off of the game in question.</p>
-                        <p class="mb-2">The score you predict is the result at the end of the game, be it 90 minutes or 120 should it go to extra time. Should the game be a draw after extra time, the penalites are not included in your prediction.</p>
+                        <p class="mb-2">Les pronostics pour les matchs à élimination directe doivent uniquement être effectués avant le coup d'envoi du match en question.</p>
+                        <p class="mb-2">Le score que vous prédisez est le résultat à la fin du match, que ce soit 90 minutes ou 120 en cas de prolongation. En cas d'égalité après prolongation, les pénalités ne sont pas incluses dans votre pronostic.</p>
 
                     </div>
                 </div>
