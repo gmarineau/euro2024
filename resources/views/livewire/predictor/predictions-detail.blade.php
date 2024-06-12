@@ -46,9 +46,9 @@ $decreaseScore = fn (string $team) => $this->prediction->decreaseScore($team);
 
             <div class="px-7">
 
-                <p class="mb-2 uppercase tracking-wide text-sm text-euro font-bold">{{ $fixture->date->timezone('Europe/Zurich')->format('l F jS - H:i') }}</p>
+                <p class="mb-2 uppercase tracking-wide text-sm text-euro font-bold">{{ $fixture->date->timezone('Europe/Zurich')->isoFormat('dddd DD MMMM - H:mm') }}</p>
                 <div class="text-3xl flex flex-row">
-                    <div class="flex-grow">{{ $prediction->fixture->homeTeam->name }}</div>
+                    <div class="flex-grow">{{ __($prediction->fixture->homeTeam->name) }}</div>
                     @if ($fixture->can_predict)
                     <div class="w-8 flex items-center justify-center cursor-pointer" wire:click="decreaseScore('home')">
                         -
@@ -64,7 +64,7 @@ $decreaseScore = fn (string $team) => $this->prediction->decreaseScore($team);
                     @endif
                 </div>
                 <div class="text-3xl flex flex-row">
-                    <div class="flex-grow">{{ $prediction->fixture->awayTeam->name }}</div>
+                    <div class="flex-grow">{{ __($prediction->fixture->awayTeam->name) }}</div>
                     @if ($fixture->can_predict)
                     <div class="w-8 flex items-center justify-center cursor-pointer" wire:click="decreaseScore('away')">
                         -
