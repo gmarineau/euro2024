@@ -51,7 +51,7 @@ new class extends Component
                         </x-dropdown-link>
 
                         <x-dropdown-link wire:click="$dispatch('selectTabEvent', { tab: 5 })">
-                            {{ __('Rules') }}
+                            {{ __('Règles') }}
                         </x-dropdown-link>
 
                         <!-- Authentication -->
@@ -92,7 +92,7 @@ new class extends Component
                 </x-responsive-nav-link>
 
                 <x-responsive-nav-link wire:click="$dispatch('selectTabEvent', { tab: 5 })">
-                    {{ __('Rules') }}
+                    {{ __('Règles') }}
                 </x-responsive-nav-link>
 
                 <!-- Authentication -->
