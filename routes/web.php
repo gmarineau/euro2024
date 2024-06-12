@@ -6,7 +6,7 @@ Route::view('/', 'app')
     ->middleware(['auth', 'verified'])
     ->name('app');
 
-Route::view('dashboard', 'dashboard')
+Route::view('dashboard', 'app')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
