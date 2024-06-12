@@ -74,6 +74,6 @@ jobs:
       with:
         context: .
         push: true
-        file: ./.docker/Dockerfile
+        file: ./Dockerfile
         tags: ${{ github.repository }}:latest,${{ github.repository }}:1.${{ github.run_number}}
         labels: ${{ steps.meta.outputs.labels }}
