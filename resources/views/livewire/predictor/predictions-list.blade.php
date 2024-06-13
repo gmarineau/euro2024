@@ -45,11 +45,11 @@ on(['closePrediction' => function () {
                                         'text-euro-darkest' => !$fixture->can_predict,
                                     ])>
                                     <div class="flex flex-row">
-                                        <div class="flex flex-grow items-center">{{ $fixture->homeTeam->name }}</div>
+                                        <div class="flex flex-grow items-center">{{ __($fixture->homeTeam->name) }}</div>
                                         <div class="w-8 uppercase text-center">{{ $fixture->userPrediction ? $fixture->userPrediction->score_home : '-' }}</div>
                                     </div>
                                     <div class="flex flex-row">
-                                        <div class="flex flex-grow items-center">{{ $fixture->awayTeam->name }}</div>
+                                        <div class="flex flex-grow items-center">{{ __($fixture->awayTeam->name) }}</div>
                                         <div class="w-8 uppercase text-center">{{ $fixture->userPrediction ? $fixture->userPrediction->score_away : '-' }}</div>
                                     </div>
                                 </div>
